@@ -48,18 +48,37 @@ Example.doublePendulum = function() {
     // add bodies
     var group = Body.nextGroup(true),
         length = 200,
-        width = 25;
+        width = 15,
+        radius = 90;
 
-    var pendulum = Composites.stack(350, -200, 2, 1, -20, 0, function(x, y) {
-        return Bodies.rectangle(x, y, length, width, {
-            collisionFilter: { group: group },
-            frictionAir: .5,
-            chamfer: 5,
-            render: {
-                fillStyle: 'black',
-                lineWidth: 1
-            }
-        });
+    var pendulum = Composites.stack(350, -200, 2, 1, -20, 0, function(x, y, i) {
+        if(i==0)
+        {
+          return Bodies.rectangle(x, y, length, width, {
+             collisionFilter: { group: group },
+             frictionAir: .1,
+             chamfer: 5,
+             render: {fillStyle: 'black', lineWidth: 1}
+          });
+        }
+        else
+        {
+          var rr = {sprite:{
+            texture: 'assets/HomePageLamp.png',
+            xScale: 0.8,
+            yScale: 0.8,
+            xOffset: -0.36
+          }};
+          return Bodies.circle(x, y, radius, {
+             collisionFilter: { group: group },
+             frictionAir: .1,
+             chamfer: 5,
+             render: rr //{fillStyle: 'black', lineWidth: 1}
+          });
+        }
+
+
+
     });
 
     pendulum.bodies[0].render.strokeStyle = '#4a485b';

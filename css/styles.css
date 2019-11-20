@@ -1,9 +1,10 @@
 body {
-  background-image: url(/assets/HomePage.jpg);
+  background-image: url(../assets/HomePage.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
   background-color: #cccccc;
+  background-size:cover;
 }
 h1 {
   font-family: "Calibri";
@@ -17,7 +18,7 @@ header::after {
   display: table;
   clear: both;
 }
-nav {
+/*nav {
   float: right;
 }
 nav ul {
@@ -41,11 +42,11 @@ nav a {
 }
 nav a:hover {
   color: white;
-}
-.navbar {
+}*/
+/*.navbar {
   width: 80%;
   margin: 0 auto;
-}
+}*/
 #logo {
   position: absolute;
   bottom: 3%;

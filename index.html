@@ -7,12 +7,26 @@
     <script type="text/javascript" src="js/matter.js"></script>
       <!-- Stylesheet -->
       <link rel="stylesheet" href="css/styles.css">
+      <style>
+       body{background:#555;}
+       div.app{position:absolute; top:10vh; bottom:10vh; left:10vh; right:10vh;
+         background:url(assets/door.jpg) no-repeat 10% bottom  #464646; background-size:20%;}
+       img.logo{position:absolute; bottom:0; right:20vh;}
+       header.nav{position:fixed; top:0; left:0; right:0; height:5vh;}
+       ul.navigation{display:grid; grid-template-columns:repeat(auto-fit, minmax(300px, 1fr));}
+       ul.navigation li{list-style:none;}
+       ul.navigation a{display:block; text-decoration:none; font-size:2vh;
+         text-transform:uppercase; text-align:center;}
+       ul.navigation a:link{color:#eee;}
+       ul.navigation a:visited{color:#eee;}
+       ul.navigation a:hover{color:#0cf;}
+      </style>
   </head>
-  <header>
-    <div class="navbar">
+  <header class="nav">
+
 
       <nav>
-        <ul>
+        <ul class="navigation">
           <li><a href="#">Home</a></li>
           <li><a href="#">About</a></li>
           <li><a href="#">Team</a></li>
@@ -20,12 +34,14 @@
         </ul>
       </nav>
 
-    </div>
+
 
   </header>
   <body>
-    <img src="assets/realm.png" alt="Realm Logo" id="logo">
-    <canvas id="lamp" width="100%" height="100%"></canvas>
-    <script type="text/javascript" src="js/script.js"></script>
+    <div class="app">
+      <img src="assets/realm.png" alt="Realm Logo" class="logo" id="logo">
+   </div>
+   <canvas id="lamp" width="100%" height="100%"></canvas>
+   <script type="text/javascript" src="js/script.js"></script>
   </body>
 </html>
