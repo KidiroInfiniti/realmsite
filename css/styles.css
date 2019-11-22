@@ -1,14 +1,13 @@
+@font-face {
+  font-family: SiteFont;
+  src: url(../assets/BoomerTantrum-j88y.ttf);
+}
 body {
-  background-image: url(../assets/HomePage.jpg);
+  background: #555;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-  background-color: #cccccc;
-  background-size:cover;
-}
-h1 {
-  font-family: "Calibri";
-  text-align: center;
+  background-color: #555;
 }
 header {
   background: #0000;
@@ -18,39 +17,55 @@ header::after {
   display: table;
   clear: both;
 }
-/*nav {
-  float: right;
+header.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 5vh;
 }
-nav ul {
-  margin: 0;
-  padding: 0;
+div.box {
+  position: absolute;
+  top: 10vh;
+  bottom: 10vh;
+  left: 10vh;
+  right: 10vh;
+  background: no-repeat 10% bottom #464646;
+  background-size: 20%;
+}
+ul.navigation {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+ul.navigation li {
   list-style: none;
 }
-nav li {
-  display: inline-block;
-  margin-left: 150px;
-  margin-right: 150px;
-  padding-top: 25px;
-  padding-bottom: 25px;
+ul.navigation a:link {
+  color: #eee;
 }
-nav a {
-  color: black;
+ul.navigation a:visited {
+  color: #eee;
+}
+ul.navigation a:hover {
+  color: #eee;
+}
+ul.navigation a {
+  display: block;
   text-decoration: none;
+  font-family: SiteFont;
+  font-size: 5vh;
   text-transform: uppercase;
-  font-family: "Calibri";
-  font-size: 24px;
+  text-align: center;
 }
-nav a:hover {
-  color: white;
-}*/
-/*.navbar {
-  width: 80%;
-  margin: 0 auto;
-}*/
-#logo {
+.logo {
   position: absolute;
   bottom: 3%;
-  right: 23%;
+  right: 20%;
+}
+.door {
+  position: absolute;
+  bottom: 0%;
+  left: 10%;
 }
 #lamp {
   position: absolute;

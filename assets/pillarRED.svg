@@ -1,0 +1,164 @@
+<svg id="mountains" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="564" height="516" viewBox="0 0 564 516">
+  <metadata><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c142 79.160924, 2017/07/13-01:06:39        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description rdf:about=""/>
+   </rdf:RDF>
+</x:xmpmeta>
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                           
+<?xpacket end="w"?></metadata>
+<defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7 {
+        fill: #555;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8 {
+        fill-rule: evenodd;
+      }
+
+      .cls-1 {
+        filter: url(#filter);
+      }
+
+      .cls-2 {
+        filter: url(#filter-2);
+      }
+
+      .cls-3 {
+        filter: url(#filter-3);
+      }
+
+      .cls-4 {
+        filter: url(#filter-4);
+      }
+
+      .cls-5 {
+        filter: url(#filter-5);
+      }
+
+      .cls-6 {
+        filter: url(#filter-6);
+      }
+
+      .cls-7 {
+        filter: url(#filter-7);
+      }
+
+      .cls-8 {
+        fill: #ff0009;
+        filter: url(#filter-8);
+      }
+    </style>
+    <filter id="filter" x="245" y="98" width="94" height="135.906" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dy="-5" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="2.236"/>
+      <feFlood result="flood" flood-color="#ff0009" flood-opacity="0.2"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+      <feFlood result="flood-2" flood-color="#ff0009" flood-opacity="0.2"/>
+      <feComposite result="composite-2" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend-2" mode="multiply" in2="blend"/>
+    </filter>
+    <filter id="filter-2" x="229" y="196" width="111" height="127.313" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dy="-5" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="2.236"/>
+      <feFlood result="flood" flood-color="#ff0009" flood-opacity="0.2"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+      <feFlood result="flood-2" flood-color="#ff0009" flood-opacity="0.2"/>
+      <feComposite result="composite-2" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend-2" mode="multiply" in2="blend"/>
+    </filter>
+    <filter id="filter-3" x="292" y="208" width="61" height="140.188" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dy="-5" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="2.236"/>
+      <feFlood result="flood" flood-color="#ff0009" flood-opacity="0.2"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+      <feFlood result="flood-2" flood-color="#ff0009" flood-opacity="0.2"/>
+      <feComposite result="composite-2" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend-2" mode="multiply" in2="blend"/>
+    </filter>
+    <filter id="filter-4" x="300" y="287" width="80" height="104.813" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dy="-5" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="2.236"/>
+      <feFlood result="flood" flood-color="#ff0009" flood-opacity="0.2"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+      <feFlood result="flood-2" flood-color="#ff0009" flood-opacity="0.2"/>
+      <feComposite result="composite-2" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend-2" mode="multiply" in2="blend"/>
+    </filter>
+    <filter id="filter-5" x="252" y="281" width="62" height="113.938" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dy="-5" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="2.236"/>
+      <feFlood result="flood" flood-color="#ff0009" flood-opacity="0.2"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+      <feFlood result="flood-2" flood-color="#ff0009" flood-opacity="0.2"/>
+      <feComposite result="composite-2" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend-2" mode="multiply" in2="blend"/>
+    </filter>
+    <filter id="filter-6" x="197" y="236" width="68" height="140.375" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dy="-5" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="2.236"/>
+      <feFlood result="flood" flood-color="#ff0009" flood-opacity="0.2"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+      <feFlood result="flood-2" flood-color="#ff0009" flood-opacity="0.2"/>
+      <feComposite result="composite-2" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend-2" mode="multiply" in2="blend"/>
+    </filter>
+    <filter id="filter-7" x="166" y="317" width="193" height="91" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dy="-5" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="2.236"/>
+      <feFlood result="flood" flood-color="#ff0009" flood-opacity="0.2"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+      <feFlood result="flood-2" flood-color="#ff0009" flood-opacity="0.2"/>
+      <feComposite result="composite-2" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend-2" mode="multiply" in2="blend"/>
+    </filter>
+    <filter id="filter-8" x="206" y="40" width="181" height="199" filterUnits="userSpaceOnUse">
+      <feGaussianBlur result="blur" stdDeviation="26.333" in="SourceAlpha"/>
+      <feComposite result="composite"/>
+      <feComposite result="composite-2"/>
+      <feComposite result="composite-3"/>
+      <feFlood result="flood" flood-color="#ff0009" flood-opacity="0.51"/>
+      <feComposite result="composite-4" operator="in" in2="composite-3"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+      <feBlend result="blend-2" in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="alterRED">
+    <path class="cls-1" d="M249.519,208.638c0.249-5.66,1.261-2.444,2.063-12.052,0.58-6.955,2.681-2.408,3.094-7.919,0.662-8.837.374-10.731,3.094-21,3.217-5.959,9.537-8.869,9.969-14.117,0.252-3.053,2.478-11.132,1.034-22.863,0.085-10.044-2.451-10.476,4.467-17.08,4.091-1.624,11.444,7.762,13.063,13.085-0.368,6.65-5.213,30.77-1.031,34.089,4.461,1.452,17.058.4,20.626-3.1,1.908-3.426,3.369-36.806,9.97-49.928,1.719-3.418,4.49,5.963,6.875,5.853,6.167-.283,4.725,38.2,3.782,46.829,1.873,8.63,8.192,38.246,7.219,48.895-5.948,5.736-34.605,22.5-40.909,24.448S249.3,213.658,249.519,208.638Z"/>
+    <path class="cls-2" d="M233.706,248.925a41.172,41.172,0,0,0,5.156-11.019c-1.529-3.425-1.723-6.055-2.062-10.674,3.7-9.161,6.958-18.751,8.25-21,3.654,2.182,6.095.257,9.282-.689,15.475,14.574,35.631,19.788,60.848,3.443,1.946,7.615,5.393-1.731,9.282,6.543,2.693-2.292,3.8-9.014,5.157-9.642a89.38,89.38,0,0,1,5.156,16.872c0.453,2.938-27.5,98.135-27.5,98.135l-57.066,2.41S229.135,256.464,233.706,248.925Z"/>
+    <path class="cls-3" d="M297.992,316.758c5.549-8.723,3.241-8.39,2.406-22.037,4.575-21.227,12.121-56.4,10.657-59.57-1.279-2.768,24.045-15.859,27.5-17.9,3.082,10.9,5.847,22.641,8.589,34.722a65.423,65.423,0,0,0-3.776,6.253c3.481,12.164,2.794,39,2.75,50.962-2.509,8.784-35.9,40.691-42.284,38.909S293.985,324.686,297.992,316.758Z"/>
+    <path class="cls-4" d="M305.555,342.927c5.038-7.821,18.464-40.358,33.689-46.846,5.284,5.391,8.829,16.8,19.948,21.382,5.019,12.942,6.762,57.587,15.805,62.652-2.574,6.828-21.969,10.943-24.064,11.707S296.418,357.109,305.555,342.927Z"/>
+    <path class="cls-5" d="M258.457,314.692c2.858-6.162,8.3-23.444,12.024-24.448s14.024,7.336,19.26.345,14.659,50.431,18.22,64.045-13.369,44.05-23.033,39.943S247.635,338.026,258.457,314.692Z"/>
+    <path class="cls-6" d="M201.047,338.451c-0.684-6,17.956-83.361,24.408-92.625,8.564,4.491,9.832,3.848,17.876,3.443,6.009-.3,11.075,12.173,13.408,19.282s4.02,63.053-.344,73C222.812,406.342,211.316,365.969,201.047,338.451Z"/>
+    <path class="cls-7" d="M170.417,387c10.778-24.354,13.8-61.511,30.286-60.257s19.007,41.4,22,44.074,18.383-41.849,30.252-40.631,9.275,1.124,13.407,3.443,16.191,53.882,18.908,54.749c7.742,2.47,2.92-34.084,22.689-39.6,17.118-4.775,33.6,16.29,45.085,42.7C364.005,416.676,159.64,411.356,170.417,387Z"/>
+    <path id="flameRED" class="cls-8" d="M295.925,120.083c-3.277,15.642-18.676,40.034.363,37.738C317.541,155.259,295.4,133.2,295.925,120.083Z"/>
+  </g>
+</svg>

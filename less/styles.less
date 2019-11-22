@@ -1,19 +1,19 @@
 //Variables
-@background-color:#cccccc;
+@background-color:#555;
 @font-family:"Calibri";
 
 //Site
+@font-face {
+  font-family: SiteFont;
+  src: url(../assets/BoomerTantrum-j88y.ttf);
+}
+
 body{
-  background-image: url(/assets/HomePage.jpg);
+  background:#555;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
   background-color: @background-color;
-}
-
-h1{
-  font-family: @font-family;
-  text-align: center;
 }
 
 header{
@@ -26,45 +26,64 @@ header::after{
   clear: both;
 }
 
-nav{
-  float: right;
+header.nav{
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+  height:5vh;
+}
+div.box{
+  position:absolute;
+  top:10vh;
+  bottom:10vh;
+  left:10vh;
+  right:10vh;
+  background:no-repeat 10% bottom #464646;
+  background-size:20%;
 }
 
-nav ul{
-  margin: 0;
-  padding: 0;
-  list-style: none;
+ul.navigation{
+  display:grid;
+  grid-template-columns:repeat(auto-fit, minmax(300px, 1fr));
 }
 
-nav li{
-  display: inline-block;
-  margin-left: 150px;
-  margin-right: 150px;
-  padding-top: 25px;
-  padding-bottom: 25px;
+ul.navigation li{
+  list-style:none;
 }
 
-nav a{
-  color: black;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-family: @font-family;
-  font-size: 24px;
+ul.navigation a:link{
+  color:#eee;
 }
 
-nav a:hover{
-  color: white;
+ul.navigation a:visited{
+  color:#eee;
 }
 
-.navbar{
-  width: 80%;
-  margin: 0 auto;
+ul.navigation a:hover{
+  color:#eee;
 }
 
-#logo{
+ul.navigation a{
+  display:block;
+  text-decoration:none;
+  font-family: SiteFont;
+  font-size:5vh;
+  text-transform:uppercase;
+  text-align:center;
+}
+
+.logo{
   position: absolute;
   bottom: 3%;
-  right: 23%;
+  right: 20%;
+
+}
+
+.door{
+  position: absolute;
+  bottom: 0%;
+  left: 10%;
 }
 
 #lamp{
