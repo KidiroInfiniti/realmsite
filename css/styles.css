@@ -84,17 +84,17 @@ div.icons {
   position: absolute;
   text-align: bottom;
   z-index: 2;
-  bottom: 2%;
-  left: 15%;
+  bottom: 1%;
+  left: 2%;
 }
 ul.smlinks li {
   display: inline-block;
   list-style: none;
-  margin: 6px;
+  margin: 18px;
 }
 ul.smlinks a {
   margin: auto;
-  font-size: 20px;
+  font-size: 30px;
   color: #eee;
 }
 .logo {
