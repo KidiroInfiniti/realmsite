@@ -83,7 +83,7 @@ ul.navigation a {
 div.icons {
   position: absolute;
   text-align: bottom;
-  z-index: 1
+  z-index: 2;
   bottom: 2%;
   left: 15%;
 }
