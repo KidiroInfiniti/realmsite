@@ -25,7 +25,7 @@ Example.doublePendulum = function() {
         canvas: lampCanvas,
         engine: engine,
         options: {
-            width: 800,
+            width: window.innerWidth,
             height: window.innerHeight,
             wireframes: false,
             background: '#f000'
@@ -34,7 +34,7 @@ Example.doublePendulum = function() {
 
     //Resize Event Listner
     function resizeCanvas(){
-      lampCanvas.width = 800;
+      lampCanvas.width = window.innerWidth;
       lampCanvas.height = window.innerHeight;
     }
     window.addEventListener("resize", resizeCanvas, false);
@@ -51,7 +51,7 @@ Example.doublePendulum = function() {
         width = 15,
         radius = 90;
 
-    var pendulum = Composites.stack(350, -200, 2, 1, -20, 0, function(x, y, i) {
+    var pendulum = Composites.stack(1545, -10, 2, 1, -20, 0, function(x, y, i) {
         if(i==0)
         {
           return Bodies.rectangle(x, y, length, width, {
@@ -115,34 +115,6 @@ Example.doublePendulum = function() {
 
     World.add(world, pendulum);
 
-    // var trail = [];
-    //
-    // Events.on(render, 'afterRender', function() {
-    //     trail.unshift({
-    //         position: Vector.clone(lowerArm.position),
-    //         speed: lowerArm.speed
-    //     });
-    //
-    //     Render.startViewTransform(render);
-    //     render.context.globalAlpha = 0.7;
-    //
-    //     for (var i = 0; i < trail.length; i += 1) {
-    //         var point = trail[i].position,
-    //             speed = trail[i].speed;
-    //
-    //         var hue = 250 + Math.round((1 - Math.min(1, speed / 10)) * 170);
-    //         render.context.fillStyle = 'hsl(' + hue + ', 100%, 55%)';
-    //         render.context.fillRect(point.x, point.y, 2, 2);
-    //     }
-    //
-    //     render.context.globalAlpha = 1;
-    //     Render.endViewTransform(render);
-    //
-    //     if (trail.length > 2000) {
-    //         trail.pop();
-    //     }
-    // });
-
     // add mouse control
     var mouse = Mouse.create(render.canvas),
         mouseConstraint = MouseConstraint.create(engine, {
@@ -163,7 +135,7 @@ Example.doublePendulum = function() {
     // fit the render viewport to the scene
     Render.lookAt(render, {
         min: { x: 0, y: 0 },
-        max: { x: 800, y: 600 }
+        max: { x: 1920, y: 1080 }
     });
 
     // context for MatterTools.Demo
