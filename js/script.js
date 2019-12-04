@@ -1,4 +1,7 @@
 var Example = Example || {};
+var rtime;
+var timeout = false;
+var delta = 200;
 
 Example.doublePendulum = function() {
     var Engine = Matter.Engine,
@@ -34,9 +37,27 @@ Example.doublePendulum = function() {
 
     //Resize Event Listner
     function resizeCanvas(){
-      lampCanvas.width = window.innerWidth;
-      lampCanvas.height = window.innerHeight;
+      rtime = new Date();
+      if (timeout === false){
+        timeout = true;
+        setTimeout(resizeend, delta);
+      }
+
     }
+
+    function resizeend(){
+      if (new Date() - rtime < delta) {
+        setTimeout(resizeend, delta);
+      } else {
+        timeout = false;
+        lampCanvas.width = window.innerWidth;
+        lampCanvas.height = window.innerHeight;
+        World.clear(engine.world);
+        Engine.clear(engine);
+        init();
+      }
+    }
+
     window.addEventListener("resize", resizeCanvas, false);
 
     Render.run(render);
@@ -46,12 +67,15 @@ Example.doublePendulum = function() {
     Runner.run(runner, engine);
 
     // add bodies
+    function init(){
+
+
     var group = Body.nextGroup(true),
         length = 200,
         width = 15,
         radius = 90;
-
-    var pendulum = Composites.stack(1545, -10, 2, 1, -20, 0, function(x, y, i) {
+console.log(lampCanvas.width + ";" + lampCanvas.height);
+    var pendulum = Composites.stack(lampCanvas.width * 0.6, lampCanvas.height * -0.1, 2, 1, -20, 0, function(x, y, i) {
         if(i==0)
         {
           return Bodies.rectangle(x, y, length, width, {
@@ -137,7 +161,8 @@ Example.doublePendulum = function() {
         min: { x: 0, y: 0 },
         max: { x: 1920, y: 1080 }
     });
-
+}
+init();
     // context for MatterTools.Demo
     return {
         engine: engine,
