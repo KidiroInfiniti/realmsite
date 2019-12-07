@@ -69,7 +69,6 @@ Example.doublePendulum = function() {
     // add bodies
     function init(){
 
-
     var group = Body.nextGroup(true),
         length = 200,
         width = 15,

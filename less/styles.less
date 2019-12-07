@@ -55,7 +55,7 @@ div.box h1{
 
 ul.navigation{
   display:grid;
-  grid-template-columns:repeat(9, minmax(450px, 1fr));
+  grid-template-columns:repeat(auto-fit, minmax(120px, 1fr));
 }
 
 ul.navigation li{
@@ -77,7 +77,7 @@ ul.navigation a{
   display:block;
   text-decoration:none;
   font-family:SiteFont;
-  font-size:5vh;
+  font-size:2vw;
   text-transform:uppercase;
   text-align:center;
 }
@@ -118,5 +118,7 @@ ul.smlinks a{
 #lamp{
   position: absolute;
   top: 0;
-  right: 7%;
+  right: 0;
+  left: 0;
+  bottom: 0;
 }
