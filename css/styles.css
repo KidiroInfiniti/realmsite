@@ -27,11 +27,6 @@ body {
 header {
   background: #0000;
 }
-header::after {
-  content: '';
-  display: table;
-  clear: both;
-}
 header.nav {
   position: fixed;
   top: 0;
@@ -39,6 +34,11 @@ header.nav {
   right: 0;
   height: 5vh;
   z-index: 1;
+}
+header::after {
+  content: '';
+  display: table;
+  clear: both;
 }
 div.box {
   position: absolute;
@@ -56,23 +56,20 @@ div.box h1 {
   bottom: 1%;
   right: 19%;
 }
+div.icons {
+  position: absolute;
+  text-align: bottom;
+  z-index: 2;
+  bottom: 1%;
+  left: 2%;
+}
 ul.navigation {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-}
-ul.navigation li {
   list-style: none;
 }
 ul.navigation a {
   color: #eee;
-}
-ul.navigation a:hover {
-  color: #262626;
-  -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: #555;
-  transition: 0.08s ease-in;
-}
-ul.navigation a {
   display: block;
   text-decoration: none;
   font-family: SiteFont;
@@ -80,12 +77,11 @@ ul.navigation a {
   text-transform: uppercase;
   text-align: center;
 }
-div.icons {
-  position: absolute;
-  text-align: bottom;
-  z-index: 2;
-  bottom: 1%;
-  left: 2%;
+ul.navigation a:hover {
+  color: #262626;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #555;
+  transition: 0.08s ease-in;
 }
 ul.smlinks li {
   display: inline-block;

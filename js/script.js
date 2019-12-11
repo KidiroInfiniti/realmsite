@@ -74,7 +74,7 @@ Example.doublePendulum = function() {
         width = 15,
         radius = 90;
 console.log(lampCanvas.width + ";" + lampCanvas.height);
-    var pendulum = Composites.stack(lampCanvas.width * 0.6, lampCanvas.height * -0.1, 2, 1, -20, 0, function(x, y, i) {
+    var pendulum = Composites.stack(lampCanvas.width * 0.72, lampCanvas.height * -0.1, 2, 1, -20, 0, function(x, y, i) {
         if(i==0)
         {
           return Bodies.rectangle(x, y, length, width, {
