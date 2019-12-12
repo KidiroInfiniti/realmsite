@@ -19,94 +19,97 @@ body{
 
 header{
   background: #0000;
-    .nav{
-      position:fixed;
-      top:0;
-      left:0;
-      right:0;
-      height:5vh;
-      z-index: 1;
+
+  &::after{
+    content: '';
+    display: table;
+    clear: both;
+  }
+}
+//Navbar Object
+  .nav{
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    height:5vh;
+    z-index: 1;
+  }
+//Navbar Text
+.navigation{
+  display:grid;
+  grid-template-columns:repeat(auto-fit, minmax(120px, 1fr));
+  list-style: none;
+
+    a{
+     color: #eee;
+     display:block;
+     text-decoration:none;
+     font-family:SiteFont;
+     font-size:2vw;
+     text-transform:uppercase;
+     text-align:center;
     }
-}
 
-header::after{
-  content: '';
-  display: table;
-  clear: both;
-}
-
-div{
-  .box{
-    position:absolute;
-    top:10vh;
-    bottom:10vh;
-    left:10vh;
-    right:10vh;
-    background:no-repeat 10% bottom #464646;
-    background-size:20%;
-  }
-  .box h1{
-    position: absolute;
-    font-family: SiteFont;
-    font-size: 9vh;
-    bottom: 1%;
-    right: 19%;
-  }
-  .icons{
-    position: absolute;
-    text-align: bottom;
-    z-index: 2;
-    bottom: 1%;
-    left: 2%;
-  }
-}
-
-ul{
-  .navigation{
-    display:grid;
-    grid-template-columns:repeat(auto-fit, minmax(120px, 1fr));
-    list-style: none;
-  }
-  .navigation a{
-    color: #eee;
-    display:block;
-    text-decoration:none;
-    font-family:SiteFont;
-    font-size:2vw;
-    text-transform:uppercase;
-    text-align:center;
-  }
-  .navigation a:hover{
+    a:hover{
     color:#262626;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: #555;
     transition: .08s ease-in;
   }
-  .smlinks li{
+}
+//Icon Funtions
+ .smlinks{
+   li{
     display:inline-block;
     list-style:none;
     margin: 18px;
   }
-  .smlinks a{
+   a{
     margin: auto;
     font-size: 30px;
     color: #eee;
   }
 }
-
+//Icon Placment
+.icons{
+  position: absolute;
+  text-align: bottom;
+  z-index: 2;
+  bottom: 1%;
+  left: 2%;
+}
+//Logo Object
 .logo{
   position: absolute;
   bottom: 2%;
   right: 20%;
-
 }
-
+//Door Object
 .door{
   position: absolute;
   bottom: 0%;
   left: 10%;
 }
+//Door and Logo placement
+.box{
+  position:absolute;
+  top:10vh;
+  bottom:10vh;
+  left:10vh;
+  right:10vh;
+  background:no-repeat 10% bottom #464646;
+  background-size:20%;
 
+  h1{
+  position: absolute;
+  font-family: SiteFont;
+  font-size: 9vh;
+  bottom: 1%;
+  right: 19%;
+  }
+}
+//Lamp Object
 #lamp{
   position: absolute;
   top: 0;

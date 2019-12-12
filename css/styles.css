@@ -27,7 +27,12 @@ body {
 header {
   background: #0000;
 }
-header.nav {
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.nav {
   position: fixed;
   top: 0;
   left: 0;
@@ -35,40 +40,12 @@ header.nav {
   height: 5vh;
   z-index: 1;
 }
-header::after {
-  content: '';
-  display: table;
-  clear: both;
-}
-div.box {
-  position: absolute;
-  top: 10vh;
-  bottom: 10vh;
-  left: 10vh;
-  right: 10vh;
-  background: no-repeat 10% bottom #464646;
-  background-size: 20%;
-}
-div.box h1 {
-  position: absolute;
-  font-family: SiteFont;
-  font-size: 9vh;
-  bottom: 1%;
-  right: 19%;
-}
-div.icons {
-  position: absolute;
-  text-align: bottom;
-  z-index: 2;
-  bottom: 1%;
-  left: 2%;
-}
-ul.navigation {
+.navigation {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
   list-style: none;
 }
-ul.navigation a {
+.navigation a {
   color: #eee;
   display: block;
   text-decoration: none;
@@ -77,21 +54,28 @@ ul.navigation a {
   text-transform: uppercase;
   text-align: center;
 }
-ul.navigation a:hover {
+.navigation a:hover {
   color: #262626;
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: #555;
   transition: 0.08s ease-in;
 }
-ul.smlinks li {
+.smlinks li {
   display: inline-block;
   list-style: none;
   margin: 18px;
 }
-ul.smlinks a {
+.smlinks a {
   margin: auto;
   font-size: 30px;
   color: #eee;
+}
+.icons {
+  position: absolute;
+  text-align: bottom;
+  z-index: 2;
+  bottom: 1%;
+  left: 2%;
 }
 .logo {
   position: absolute;
@@ -102,6 +86,22 @@ ul.smlinks a {
   position: absolute;
   bottom: 0%;
   left: 10%;
+}
+.box {
+  position: absolute;
+  top: 10vh;
+  bottom: 10vh;
+  left: 10vh;
+  right: 10vh;
+  background: no-repeat 10% bottom #464646;
+  background-size: 20%;
+}
+.box h1 {
+  position: absolute;
+  font-family: SiteFont;
+  font-size: 9vh;
+  bottom: 1%;
+  right: 19%;
 }
 #lamp {
   position: absolute;
