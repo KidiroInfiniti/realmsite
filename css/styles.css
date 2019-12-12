@@ -60,6 +60,13 @@ header::after {
   -webkit-text-stroke-color: #555;
   transition: 0.08s ease-in;
 }
+.icons {
+  position: absolute;
+  text-align: bottom;
+  z-index: 2;
+  bottom: 1%;
+  left: 2%;
+}
 .smlinks li {
   display: inline-block;
   list-style: none;
@@ -70,12 +77,11 @@ header::after {
   font-size: 30px;
   color: #eee;
 }
-.icons {
-  position: absolute;
-  text-align: bottom;
-  z-index: 2;
-  bottom: 1%;
-  left: 2%;
+.smlinks a:hover {
+  color: #262626;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: #555;
+  transition: 0.08s ease-in;
 }
 .logo {
   position: absolute;
@@ -100,7 +106,7 @@ header::after {
   position: absolute;
   font-family: SiteFont;
   font-size: 9vh;
-  bottom: 1%;
+  bottom: 3.5%;
   right: 19%;
 }
 #lamp {

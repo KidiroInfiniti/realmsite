@@ -37,9 +37,9 @@ header{
   }
 //Navbar Text
 .navigation{
-  display:grid;
-  grid-template-columns:repeat(auto-fit, minmax(120px, 1fr));
-  list-style: none;
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(120px, 1fr));
+    list-style: none;
 
     a{
      color: #eee;
@@ -58,6 +58,14 @@ header{
     transition: .08s ease-in;
   }
 }
+//Icon Placment
+.icons{
+  position: absolute;
+  text-align: bottom;
+  z-index: 2;
+  bottom: 1%;
+  left: 2%;
+}
 //Icon Funtions
  .smlinks{
    li{
@@ -70,14 +78,12 @@ header{
     font-size: 30px;
     color: #eee;
   }
-}
-//Icon Placment
-.icons{
-  position: absolute;
-  text-align: bottom;
-  z-index: 2;
-  bottom: 1%;
-  left: 2%;
+  a:hover{
+    color:#262626;
+    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: #555;
+    transition: .08s ease-in;
+  }
 }
 //Logo Object
 .logo{
@@ -105,7 +111,7 @@ header{
   position: absolute;
   font-family: SiteFont;
   font-size: 9vh;
-  bottom: 1%;
+  bottom: 3.5%;
   right: 19%;
   }
 }
